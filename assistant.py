@@ -4,7 +4,6 @@ import openai
 # Make sure you set your API key before running:
 # export OPENAI_API_KEY="your_api_key"  (Linux/Mac)
 # setx OPENAI_API_KEY "your_api_key"    (Windows)
-#first testing
 
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
